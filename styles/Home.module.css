@@ -1,0 +1,412 @@
+.navbar {
+    background-color: #344a72;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    list-style: none
+}
+
+.navbar ul li {
+    width: 100%;
+    line-height: 50px;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    color: #344a72;
+    background-color: #fff;
+}
+
+.title{
+    text-align: center;
+}
+
+.emptydiv {
+    width: 6%;
+    height: 3px;
+    background-color: #333;
+}
+
+.emptydivone {
+    width: 6%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.paddingnill {
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+.headingcontent {
+    width: 80%;
+    height: 230px;
+    margin: auto;
+    padding: 15px;
+    color: #fff;
+    background-color: #283747;
+}
+
+.paragraph {
+    font-weight: 400;
+    word-spacing: 4px;
+}
+
+.titles {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.maincontent {
+    display: flex;
+}
+
+.offimage, .offcontent {
+    width: 50%;
+}
+
+.threeblocks {
+    margin: auto;
+    width: 80%;
+}
+
+.threeblocks > div {
+    margin: 20px 0px;
+    background-color: #D6EAF8 ;
+}
+
+.tableparent {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.tabledata {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.tablechild {
+    line-height: 50px;
+    width: 140px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid blue;
+} 
+
+.textfitting {
+    padding: 0px 15px;
+}
+
+.textfittings {
+    padding: 0px 25px 0px 15px;
+    font-weight: 500;
+}
+
+.contentbutton {
+    line-height: 35px;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+    float: right;
+    border: 1px solid green;
+    border-radius: 10px;
+    border: none;
+    background-color: #344a72;
+}
+
+.contentbutton:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+.showmoreparent {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.showmorebutton {
+    width: 9%;
+    height: 35px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    margin: auto;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.showmorebutton:hover {
+    color: #333;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+.fouriconstext {
+    width: 80%;
+    margin: auto;
+}
+
+.imagesparent {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    object-fit: cover;
+    margin: 1px;
+    color: #fff;
+    background-color: #344a72;
+    border-radius: 3px;
+} 
+
+/* .imagesparent > div {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    object-fit: cover;
+    margin: 1px;
+    color: #fff;
+    background-color: #344a72;
+    border-radius: 3px;
+} */
+
+.fourimagetext {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.detailsbutton {
+    height: 35px;
+    line-height: 35px;
+    width: 40%;
+    float: right;
+    font-weight: 500;
+    color: #333;
+    z-index: 5;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: skyblue;
+}
+
+.detailsbutton:hover {
+    color: #333;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.empt {
+    width: 10%;
+    height: 3px;
+    background-color: #333;
+    margin: 0px 0px 15px 0px;
+}
+
+/* .lasttwo {
+    display: flex;
+    width: 80%;
+    margin: 35px auto 25px auto;
+    background-color: #D5DBDB;
+} */
+
+/* .lasttwo {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: 30px auto 30px auto;
+    background-color: #D5DBDB;
+} */
+
+.lasttwodata {
+    padding: 0px 25px;
+}
+
+.detailsbuttonlast {
+    width: 20%;
+    line-height: 35px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: 500;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.detailsbuttonlast:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #333;    
+}
+
+.footerparent {
+    background-color: rgba(100, 149, 237, 0.3);
+}
+
+/* .footeralign {
+    display: flex; 
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    background-color: skyblue;
+    background-color: rgba(53, 75, 115, 0.7);
+} */
+
+.foot {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    width: 80%;
+    margin: auto;
+}
+
+.footeritems:hover{
+    cursor: pointer;
+    color: #CB4335;
+    text-decoration: underline;
+}
+
+.footerhorizontalline {
+    height: 1px;
+    width: 80%;
+    background-color: #333;
+    margin: 20px auto auto auto;
+}
+
+.fiveitems {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 18px;
+    /* font-weight: 500; */
+    padding: 7px 0px;
+    margin: auto;
+}
+
+.paddingclass {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.lastButton {
+    line-height: 30px;
+    height: 30px;
+    width: 10%;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+    background-color: tomato;
+}
+
+.lastButton:hover {
+    cursor: pointer;
+    /* color: #333; */
+    background-color: #344a72;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.brandNames {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandNames > p {
+    margin: 0px 5px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.copytitle {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.brandhead {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.brandColorOne, .first {
+    color: #f39c12;
+}
+
+.brandColorTwo, .second {
+    color: #2980b9;
+}
+
+.brandColorThree, .third {
+    color: #7d3c98;
+}
+
+.brandColorFour, .four {
+    color: rgb(243, 57, 0);
+}
+
+.brandColorFive, .fifth {
+    color: #bd3210;
+}
+
+.brandColorSix, .sixth {
+    color: #0b8a58;
+}
+
+.brandColorSeven, .seventh {
+    color: #f8c471;
+}
+
+.all {
+    text-align: center;
+    margin: auto;
+}
+
+.titleandcontent {
+    width: 80%;
+    margin: auto;
+    padding: 10px 30px;
+    background-color: rgba(100, 149, 237, 0.5);
+    border-radius: 8px;
+}
+
+.para {
+    line-height: 20px;
+    /* font-size: 18px; */
+    /* font-weight: 500; */
+}
+
+.onething {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.cent {
+    text-align: center;
+}
+
+.onethings {
+    display: flex;
+    width: 80%;
+    margin: 10px auto 10px auto;
+    background-color: rgba(41, 56, 71, 0.3);
+}
