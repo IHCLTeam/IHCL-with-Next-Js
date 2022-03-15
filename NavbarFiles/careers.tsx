@@ -11,7 +11,7 @@ export default function Careers({ title, subtitle, heading, body, image }) {
                     <h1>{title}</h1>
                     <h3>{subtitle}</h3>
                 </div>
-
+ {/* first */}
                 <div>
                     <Image loader={imageLoader} src={image} alt="Not Found" width={600} height={430} />
                 </div>
