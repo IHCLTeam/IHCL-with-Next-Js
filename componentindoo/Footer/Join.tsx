@@ -16,7 +16,7 @@ export function Join({data} : dataTypeJoin) {
         <Typography sx = {{paddingBottom : '1%' , fontSize : 12}}>
             {data[0]?.content}
         </Typography>
-        <Button sx = {{backgroundColor : '#002a49' , color : 'white',marginBottom : '1%',fontSize:10}}>
+        <Button sx = {{backgroundImage:'linear-gradient(#022842, #0c5d90)' , color : 'white',marginBottom : '1%',fontSize:10}}>
             {data[0]?.btn}
         </Button>
         <hr className='hr' />

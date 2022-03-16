@@ -34,7 +34,7 @@ export function ChefLink ({data} : chef) {
                     />
                     <br></br>
                     <div className="cheftitle">{blog.title}</div>
-                    <div className="text">{blog.text}</div>
+                    <div className="textind">{blog.text}</div>
                     <br></br>
                     <Button className="btn1">{blog.button}</Button>
                   </div>
