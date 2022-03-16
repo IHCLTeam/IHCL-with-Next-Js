@@ -71,7 +71,7 @@ export function CarosalBlock({ data }: carosalProps) {
                     alt={item.image}
                   />
                 </Typography>
-                <Grid style={{width : '60%',padding:'1%',fontWeight:'bolder',fontSize : '115%'}}>
+                <Grid style={{width : '60%',padding:'1%',fontWeight:'bolder',fontSize : '100%'}}>
                   {item.description}
                   <br></br>                  
                   <button className="button1">View Vedio</button>

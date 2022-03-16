@@ -34,12 +34,14 @@ export function FooterDown({ data }: dataTypefooter) {
     return (
         <Grid sx={{ display: 'flex', marginLeft: 13, justifyContent: 'space-between', width: '85%', borderTop: 1, padding: '1%' }}>
             <Grid>
-                <Image
-                    loader={imageLoader}
-                    src={data[0]?.logo}
-                    alt='img delt'
-                    height={56}
-                    width={90} />
+
+               
+                    <Image
+                        loader={imageLoader}
+                        src={data[0]?.logo}
+                        alt='img delt'
+                        height={56}
+                        width={90} />
                 <Typography>
                     {data[0]?.content}
                 </Typography>
@@ -49,12 +51,12 @@ export function FooterDown({ data }: dataTypefooter) {
                 <Typography>
                     {data[0]?.brands}
                 </Typography>
-                <Image
+                <a href="https://www.tajhotels.com">  <Image
                     loader={imageLoader}
                     src={data[0]?.TajIcon}
                     alt='img delt'
                     height={30}
-                    width={80} />
+                    width={80} />  </a>
 
                 <Image
                     loader={imageLoader}

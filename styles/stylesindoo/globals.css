@@ -1,5 +1,5 @@
 /* AMIT CSS */
-
+/* 
 .textamit
 {
     position: absolute;
@@ -8,7 +8,7 @@
     left: 41%;
     top: 32%;
     cursor: pointer;
-}
+} */
 
 /* index.css indoo */
 .dropdown {
@@ -16,7 +16,7 @@
   justify-content: center;
   height: 24px;
   width: 100%;
-  background-color: #002b49;
+  background-color: #022f4e;
   color: white;
 }
 select {
@@ -39,8 +39,9 @@ select {
 position: relative;
   bottom: 10;
   z-index: 2;
+  padding-top: 10px;
   
-  background: #002b49;
+  background-image: linear-gradient(#031a2b, #174f72);
   justify-content: space-evenly;
 }
 .bot{
@@ -54,7 +55,7 @@ position: relative;
 }
 .button {
   margin: 10px 5px;
-  background: #002b49;;
+  background-image: linear-gradient(#002b49, #0c5d90);
   color: white;
   cursor: pointer;
   border-radius: 30px;
@@ -85,6 +86,7 @@ height: 31%;
 vertical-align: auto;
 
 }
+
 .desc{
 background-color: #ffffff;
 box-shadow: 0 11px 12px 0 rgb(0 0 0 / 5%);
@@ -96,15 +98,15 @@ text-align: center;
 /* margin-top: 15px; */
 }
 .puneet {
-width: 117%;
+width: 80%;
 margin: auto;
 display: flex;
 justify-content: space-around;
-margin-left: 15%;
-margin-right: 5%;
+
+
 }
 .equal {
-width: 50%;
+width: 70%;
 font-family: calibri;
 margin: auto;
 font-size: 16px;
@@ -114,31 +116,48 @@ line-height: 1.5;
 .titleInd {
 font-family: Calibri;
 margin-left: 12%;
+line-height: 2;
+margin-top:  1%;
 
 }
 .youtube{
-width: 80%;
+width: 70%;
 height: 270px;
 display: flex;
 margin-left: 13%;
 
 }
-.images{
+/* .images{
 margin: auto;
 background-color: aquamarine;
-}
-.IHCL{
+} */
+/* .IHCL{
 margin-left: 16%;
-width: 101%;
-}
-.text{
+width: 100%;
+} */
+.textind{
 line-height: 18px;
 margin-left: 3%;
 font-size: 16px;
 font-family: Calibri;
 }
+
+.images{
+  margin: auto;
+  background-color: aquamarine;
+}
+
+.IHCL{
+  margin-left: 18%;
+
+}
+
+
+.zt{
+  font-size: 2em;
+}
 .btn1{
-background-color: #002b49;
+  background-image: linear-gradient(#022842, #0c5d90);
 color: #fff;
 margin-left: 75%;
 }
@@ -180,11 +199,11 @@ margin-left: 7%;
 }
 .company{
 top:20px;
-left: 530px;
+left: 580px;
 }
 .investors{
 top:20px;
-left:600px;
+left:660px;
 }
 .development{
 top:20px;
@@ -196,32 +215,44 @@ left:800px;
 }
 .careers{
 top:20px;
-left:900px;
+left:940px;
 }
 .pressroom{
 top:20px;
-left:980px;
+left:1000px;
 }
 .contact{
 top:20px;
-left:1080px;
+left:1100px;
 }.brand{
 top:20px;
-left:450px;
+left:500px;
 
 }
 .topbar{
+  position: fixed;
+  top: 0;
+  z-index: 5;
 display: flex;
   justify-content: center;
-  width: 107%;
-  background-color: #002b49;
+  width: 100vw;
+  height: 35px;
+  background-image: linear-gradient(#002b49, #055c92);
   /* color: white; */
   color: chartreuse;
   font-family: calibri;
  
 }
+.hr{
+  width : 95%;
+}
 #demo-positioned-button{
+ 
 color: white;
 font-size: 12px;
 gap: 50px;
 }
+
+/* .footerbg{
+  background-color: #d4d1d1;
+} */

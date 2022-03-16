@@ -39,7 +39,7 @@ export function Carosal ({ data }: HomeProps)  {
   };
   return (
     <div>
-      <h1 className="text">Annual General Meeting for FY 2020-21</h1>
+      <h1 className="text zt">Annual General Meeting for FY 2020-21</h1>
       <Box sx={{ flexGrow: 1 }}>
         <AutoPlaySwipeableViews
           axis={theme.direction === "rtl" ? "x-reverse" : "x"}

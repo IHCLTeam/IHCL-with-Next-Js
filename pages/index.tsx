@@ -21,6 +21,7 @@ import { ChefLink } from "../componentindoo/ChefLink";
 import { Authors } from "../componentindoo/authors";
 import { BlogThree } from "../componentindoo/BlogThree";
 import { ContactUs } from "../componentindoo/Footer/Contact";
+import { red } from "@mui/material/colors";
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -42,7 +43,7 @@ const Contact = ({ blogs, blogtwo, blog3, blog4, blog5, footerBrand, footerCaree
         <p>Aspiration 2022 is based on a promise to work together to create greater enterprise value, and make IHCL South Asia’s most iconic and profitable hospitality company. -  Puneet Chhatwal</p>
       </div>
       <div className="titleInd">
-        <h2><u>Leaders</u> Speak</h2>
+        <h1><u>Leaders</u> Speak</h1>
       </div>
       <ManagingDirector data={blogtwo} />
       <br></br>
@@ -50,14 +51,15 @@ const Contact = ({ blogs, blogtwo, blog3, blog4, blog5, footerBrand, footerCaree
       <div>
         <iframe className="youtube" src="https://www.youtube.com/embed/tgbNymZ7vqY">
         </iframe>
-        <h2 className="titleInd"><u>Happen</u>ings at IHCL</h2>
+        <h1 className="titleInd"><u>Happen</u>ings at IHCL</h1>
         <BlogThree data={blog3} />
-        <h2 className="titleInd"><u>Work w</u>ith a Global Leader in Hospitality</h2>
+        <h1 className="titleInd"><u>Work w</u>ith a Global Leader in Hospitality</h1>
       </div>
       <div style={{ display: "flex", marginLeft: '5%' }}>
         <ChefLink data={blog4} />
         <Authors data={blog5} />
       </div>
+      <footer className="footerbg">
       <Box sx={{ flexGrow: 1, marginLeft: '3%' }}>
         <Grid container spacing={2} columns={18}>
           <Grid item xs={2}>
@@ -116,9 +118,10 @@ const Contact = ({ blogs, blogtwo, blog3, blog4, blog5, footerBrand, footerCaree
         </Typography>
 
       </Grid>
-      <Grid>
+      <Grid sx={{}}>
         <Footer data={footers} />
       </Grid>
+      </footer>
     </>
   )
 }

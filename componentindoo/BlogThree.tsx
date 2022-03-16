@@ -23,10 +23,10 @@ export function BlogThree ({data} : blogThree) {
                 src={blog.imagee}
                 loader={imageloader}
                 height={900}
-                width={1000}
+                width={900}
                 alt={blog.imagee}
               />
-              <div className="text">{blog.text}</div>
+              <div className="textind">{blog.text}</div>
             </div>
           )
         })

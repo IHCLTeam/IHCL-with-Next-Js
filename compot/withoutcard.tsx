@@ -38,7 +38,7 @@ const DataOne = ({ title, descripition }: Props) => {
                             <Box component='h2' sx={{ color: '#012f4e', borderBottom: 4, marginTop: 2, width: '9%' }} >
                                 {title}
                             </Box>
-                            <Typography fontSize={13} variant="body2">
+                            <Typography sx={{marginTop: 2}} fontSize={13} variant="body2">
                                 {descripition}
                             </Typography>
                         </Grid>

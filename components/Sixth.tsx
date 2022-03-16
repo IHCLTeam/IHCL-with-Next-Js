@@ -5,7 +5,7 @@ const Sixth = ({brand, taj, seleq, vivan, ginger, title}) => {
     return (
         <>
            {/* <div className={styles.footerparent}> */}
-                {/* <div className={styles.footeralign}> */}
+                <div className={styles.footeralign}>
                     <div>
                         <h4>{title}</h4>
                         <p className={styles.footeritems}>{brand}</p>
@@ -14,7 +14,7 @@ const Sixth = ({brand, taj, seleq, vivan, ginger, title}) => {
                         <p className={styles.footeritems}>{vivan}</p>
                         <p className={styles.footeritems}>{ginger}</p>
                     </div>
-                {/* </div> */}
+                </div>
             {/* </div> */}
         </>
     )

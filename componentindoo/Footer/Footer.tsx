@@ -26,12 +26,12 @@ export function Footer({ data }: arrayDataTypes) {
       sx={{
         display: "flex",
         justifyContent: "space-between",
-        width: "75%",
-        marginLeft: "12%",
+        width: "86%",
+        marginLeft: "8%",
         marginTop: "1%",
       }}
     >
-      <Grid>
+      <Grid> 
         <Typography>
           <Image
             loader={imageLoader}
@@ -43,41 +43,41 @@ export function Footer({ data }: arrayDataTypes) {
         </Typography>
         <Typography sx={{fontSize:12}}>{data[0]?.content}</Typography>
       </Grid>
-      <Grid>
+      <Grid sx={{paddingRight : '2%'}}>
         <Typography sx={{fontSize:12}}>{data[0]?.brands}</Typography>
         <Typography>
           <Image
             loader={imageLoader}
             src={data[0]?.TajIcon}
-            width={40}
+            width={50}
             height={40}
             alt="not found"
           />
           <Image
             loader={imageLoader}
             src={data[0]?.seleqtionsBrandIcon}
-            width={40}
+            width={80}
             height={20}
             alt="not found"
           />
           <Image
             loader={imageLoader}
             src={data[0]?.vivantaIcon}
-            width={40}
+            width={80}
             height={20}
             alt="not found"
           />
           <Image
             loader={imageLoader}
             src={data[0]?.gingerIcon}
-            width={40}
+            width={86}
             height={20}
             alt="not found"
           />
           <Image
             loader={imageLoader}
             src={data[0]?.expressionsIcon}
-            width={40}
+            width={89}
             height={20}
             alt="not found"
           />
@@ -85,7 +85,7 @@ export function Footer({ data }: arrayDataTypes) {
             loader={imageLoader}
             src={data[0]?.tajSatsIcon}
             width={40}
-            height={20}
+            height={26}
             alt="not found"
           />
         </Typography>

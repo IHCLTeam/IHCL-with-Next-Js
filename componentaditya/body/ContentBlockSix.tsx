@@ -23,7 +23,7 @@ export function ContentBlockSix({ data }: blocks) {
         {data[0]?.header}
       </Typography>
 
-      <Grid className="footer">
+      <Grid className="footerz">
         <Typography>
           <li> {data[0].bodyOne} </li>
           <li> {data[0].bodyFour} </li>

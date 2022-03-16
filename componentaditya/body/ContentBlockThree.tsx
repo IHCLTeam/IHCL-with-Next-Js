@@ -19,20 +19,8 @@ interface arraytwo {
   data: arrayTwoTypes[];
 }
 
-// const useStyles = makeStyles ((theme)) => (
-//   {
-//     cOne : {
-//       display : 'flex',
-//       justifyContent:'space-between',
-//       backgroundColor:'#084c79',
-//       color : 'white'
-//     }
-//   }
-// )
-
 export function ContentBlockThree({ data }: arraytwo) {
 
-// const classes = useStyles();
 
   return (
     <>
@@ -45,7 +33,7 @@ export function ContentBlockThree({ data }: arraytwo) {
         <button className="btn3">View More</button>
       </Typography>
 
-      <Typography sx={{textAlign:'left',lineHeight : '26px',paddingTop:'1%',paddingRight: '4%' ,color : 'white',fontSize : 15}}>
+      <Typography sx={{textAlign:'left',lineHeight : 1.6,paddingTop:'1%',paddingRight: '4%' ,color : 'white',fontSize : 15}}>
         <h3>{data[0].headerTwo}</h3>
         <p>{data[0].bodyTwoA}</p>
         <p>{data[0].bodyTwoAO}</p>

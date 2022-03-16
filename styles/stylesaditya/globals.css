@@ -114,9 +114,15 @@ padding: 5%;
   color: white;
 
 }
+.footerz 
+{
+  justify-content: space-evenly;
+  display: flex;
+  color: white;
+}
 .fhead
 {
-  padding-left: 10%;
+  padding-left: 7%;
 }
 .footer_head
 {

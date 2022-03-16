@@ -28,7 +28,7 @@ export function ManagingDirector({data} : taduh) {
             <h3 className="pun">{blog.title}<br></br>{blog.title2}</h3>
             <div className="punimg">{blog.text}</div>
           </div>
-          <div className="equal">
+          <div className="equal1">
             <Image
               src={blog.img}
               loader={imageloader}

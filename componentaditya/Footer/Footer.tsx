@@ -56,7 +56,7 @@ export function Footer({ data }: arrayDataTypes) {
             loader={imageLoader}
             src={data[0]?.seleqtionsBrandIcon}
             width={80}
-            height={28}
+            height={24}
             alt="not found"
           />
           <Image
