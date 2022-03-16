@@ -17,6 +17,8 @@ import { Responsibility } from '../Componentamit/footer/Responsibility'
 import { Join } from '../Componentamit/footer/Join'
 import { Footer } from '../Componentamit/footer/Footer'
 
+//amith
+
 function Home({ blog, content, contentOne, Brandes,
   Companys, Investor, Developmentes, Responsibilitys, Careeres, PressRoomes, Contactus, subFooters, us, foter }: any) {
   return (
