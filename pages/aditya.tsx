@@ -137,7 +137,7 @@ const Hello = ({  carosalImage,  carosalContent,  contentOne,  contentTwo,
           </Grid>
 
           <Grid item xs={5}>
-            <Item sx = {{paddingBottom : '11%'}}>
+            <Item sx = {{paddingBottom : '5%'}}>
               <ContentFive data={contentFive} />
             </Item>
           </Grid>
@@ -148,7 +148,7 @@ const Hello = ({  carosalImage,  carosalContent,  contentOne,  contentTwo,
                 loader={imageLoader}
                 src={calender[0]?.image}
                 alt="not found"
-                height={245}
+                height={220}
                 width={280}
               />
             </Item>
@@ -165,7 +165,7 @@ const Hello = ({  carosalImage,  carosalContent,  contentOne,  contentTwo,
         <ContentBlockSix data={contentSix} />
       </Box>
 
-      <Typography sx= {{ backgroundColor : '#002a49',color : 'white',paddingLeft : '13%',paddingTop : '1%'}}>
+      <Typography sx= {{ backgroundColor : '#002a49',color : 'white',paddingLeft : '19%',paddingTop : '1%'}}>
       <h3>QUICK LINKS</h3>
       </Typography>
       
@@ -192,7 +192,7 @@ const Hello = ({  carosalImage,  carosalContent,  contentOne,  contentTwo,
           <BlogContentFive data={blogFielsFive} />
         </Item>
 
-        <Typography sx={{display : 'block',paddingTop : '16%', paddingBottom : '1%' , fontSize : '13px'}}>
+        <Typography sx={{display : 'block',paddingTop : '14%', paddingBottom : '1%' , fontSize : '13px'}}>
         DISCLAIMER
         </Typography>
 

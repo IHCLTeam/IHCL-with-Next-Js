@@ -95,7 +95,7 @@ padding: 5%;
     z-index: 1;
     color: white;
     left: 33%;
-    top: 28%;
+    top: 24%;
     cursor: pointer;
 }
 .button1
@@ -122,7 +122,8 @@ padding: 5%;
 }
 .fhead
 {
-  padding-left: 7%;
+  padding-left: 10%;
+  font-size: larger;
 }
 .footer_head
 {
@@ -147,7 +148,7 @@ padding: 5%;
   color: white;
 }
 
-.hr{
+.hr12{
   width: 80%;
 }
 
