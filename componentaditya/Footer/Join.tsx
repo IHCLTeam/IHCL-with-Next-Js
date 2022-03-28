@@ -19,7 +19,7 @@ export function Join({data} : dataTypeJoin) {
         <Button sx = {{backgroundColor : '#002a49' , color : 'white',marginBottom : '1%',}}>
             {data[0]?.btn}
         </Button>
-        <hr className='hr' />
+        <hr className='hr12' />
     </Grid>
   )
 }
