@@ -1,7 +1,6 @@
-import styles from '../styles/Home.module.css'
-
+import styles from '../styles/stylesvenkat/Home.module.css'
 const Seventh = ({sitemap, accessibility, language, terms, privacyPolicy}) => {
-    debugger
+   
     return (
         <>
             <div>

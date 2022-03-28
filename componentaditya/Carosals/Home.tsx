@@ -4,7 +4,6 @@ import Box from "@mui/material/Box";
 import SwipeableViews from "react-swipeable-views";
 import Button from "@mui/material/Button";
 import { autoPlay } from "react-swipeable-views-utils";
-import { MobileStepper } from "@mui/material";
 import image from "next/image";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
@@ -65,15 +64,6 @@ export function Carosal ({ data }: HomeProps)  {
           ))}
         </AutoPlaySwipeableViews>
       </Box>
-
-      <MobileStepper
-        steps={maxSteps}
-        position="static"
-        activeStep={activeStep}
-        backButton={undefined}
-        nextButton={undefined}
-        className="banner"
-      />
       <Button
         onClick={handleNext}
         disabled={activeStep === maxSteps - 1}

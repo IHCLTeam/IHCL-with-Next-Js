@@ -18,15 +18,15 @@ function PositionedMenu() {
 
     <div className='topbar'>
       <div>
-      <Button
+        <Button
           id="demo-positioned-button"
-         
+
         >
-         <Link href="/"><a>
-         <Image loader={imageLoader} src='https://www.ihcltata.com/content/dam/tajhotels/ihcl/Logos/IHCL-LOGO-white.png' alt="Not Found" width={50} height={12} /> &nbsp; &nbsp; HOME 
-           </a></Link>
+          <Link href="/"><a>
+            <Image loader={imageLoader} src='https://www.ihcltata.com/content/dam/tajhotels/ihcl/Logos/IHCL-LOGO-white.png' alt="Not Found" width={50} height={12} /> &nbsp; &nbsp; HOME
+          </a></Link>
         </Button>
-     
+
       </div>
 
       <div>
@@ -90,6 +90,8 @@ function PositionedMenu() {
         <MenuItem onClick={handleClose}>ABOUT US</MenuItem>
         <MenuItem onClick={handleClose}>LEADERSHIP</MenuItem>
       </Menu>
+
+
       <Button
         id="demo-positioned-button"
         aria-controls={anchorEl == "INVESTORS" ? 'demo-positioned-menu' : undefined}
@@ -117,37 +119,7 @@ function PositionedMenu() {
       >
         <MenuItem onClick={handleClose}><Link href="/aditya"><a>INVESTORS</a></Link></MenuItem>
       </Menu>
-      <Button
-        id="demo-positioned-button"
-        aria-controls={anchorEl == "DEVELOPMENT" ? 'demo-positioned-menu' : undefined}
-        aria-haspopup="true"
-        aria-expanded={anchorEl == "DEVELOPMENT" ? 'true' : undefined}
-        onClick={() => handleClick("DEVELOPMENT")}
-        onMouseOver={() => handleClick("DEVELOPMENT")}
-      >
-        DEVELOPMENT
-      </Button>
-      <Menu className='development'
-        id="demo-positioned-menu"
-        aria-labelledby="demo-positioned-button"
-        anchorEl={anchorEl}
-        open={anchorEl == "DEVELOPMENT"}
-        onClose={handleClose}
-        anchorOrigin={{
-          vertical: 'top',
-          horizontal: 'left',
-        }}
-        transformOrigin={{
-          vertical: 'top',
-          horizontal: 'left',
-        }}
-      >
-        <MenuItem onClick={handleClose}><Link href="/development"><a>DEVELOPMENT</a></Link></MenuItem>
-        <MenuItem onClick={handleClose}>COMPETITIVE STRENGTH</MenuItem>
-        <MenuItem onClick={handleClose}>
-          DEVELOPMENT SUPPORT</MenuItem>
-        <MenuItem onClick={handleClose}>RESOURCES</MenuItem>
-      </Menu>
+
       <Button
         id="demo-positioned-button"
         aria-controls={anchorEl == "RESPONSIBILITY" ? 'demo-positioned-menu' : undefined}
@@ -177,6 +149,41 @@ function PositionedMenu() {
           <Link href="/santosh"><a>RESPONSIBILITY</a></Link></MenuItem>
         <MenuItem onClick={handleClose}>WELFARE</MenuItem>
       </Menu>
+
+
+      <Button
+        id="demo-positioned-button"
+        aria-controls={anchorEl == "DEVELOPMENT" ? 'demo-positioned-menu' : undefined}
+        aria-haspopup="true"
+        aria-expanded={anchorEl == "DEVELOPMENT" ? 'true' : undefined}
+        onClick={() => handleClick("DEVELOPMENT")}
+        onMouseOver={() => handleClick("DEVELOPMENT")}
+      >
+        DEVELOPMENT
+      </Button>
+      <Menu className='development'
+        id="demo-positioned-menu"
+        aria-labelledby="demo-positioned-button"
+        anchorEl={anchorEl}
+        open={anchorEl == "DEVELOPMENT"}
+        onClose={handleClose}
+        anchorOrigin={{
+          vertical: 'top',
+          horizontal: 'left',
+        }}
+        transformOrigin={{
+          vertical: 'top',
+          horizontal: 'left',
+        }}
+      >
+        <MenuItem onClick={handleClose}><Link href="/"><a>DEVELOPMENT</a></Link></MenuItem>
+        <MenuItem onClick={handleClose}>COMPETITIVE STRENGTH</MenuItem>
+        <MenuItem onClick={handleClose}>
+          DEVELOPMENT SUPPORT</MenuItem>
+        <MenuItem onClick={handleClose}>RESOURCES</MenuItem>
+      </Menu>
+
+
       <Button
         id="demo-positioned-button"
         aria-controls={anchorEl == "CAREERS" ? 'demo-positioned-menu' : undefined}
@@ -256,7 +263,7 @@ function PositionedMenu() {
           horizontal: 'left',
         }}
       >
-        <MenuItem onClick={handleClose}><Link href="/contact"><a>CONTACT</a></Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link href="/"><a>CONTACT</a></Link></MenuItem>
       </Menu>
     </div>
   );

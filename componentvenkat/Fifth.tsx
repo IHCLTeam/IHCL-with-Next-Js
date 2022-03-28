@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import imageLoader from '../pages/imageLoader'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/stylesvenkat/Home.module.css'
 
 const Fifth = ({title, image, details, description}) => {
     return (

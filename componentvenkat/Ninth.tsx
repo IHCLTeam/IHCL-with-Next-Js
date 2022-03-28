@@ -1,5 +1,4 @@
-import styles from '../styles/Home.module.css'
-
+import styles from '../styles/stylesvenkat/Home.module.css'
 const Ninth = ({title, copyright, subtitle, taj, seleqtions, vivanta, ginger, ama, qmin, tajsats}) => {
     return (
         <>

@@ -22,7 +22,6 @@ interface foterthreedata {
     data: iconssd[];
 }
 export function FooterThree({ data }: foterthreedata) {
-    debugger
   return (
     <Grid
       sx={{

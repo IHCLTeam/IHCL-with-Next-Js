@@ -20,7 +20,7 @@ interface Props {
 
 
 export default function ContentOne({ image, heading, text, button }: Props) {
-    debugger
+    
     return (
         <Paper
             sx={{

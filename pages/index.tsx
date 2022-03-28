@@ -30,7 +30,7 @@ const Item = styled(Paper)(({ theme }) => ({
   border: 'none'
 }))
 const Contact = ({ blogs, blogtwo, blog3, blog4, blog5, footerBrand, footerCareers, footerCompanys, footers, footerContacts, footerDevelopments, footerInvestor, footerPressRooms, footerResponsibilitys, subFooters, join }: any) => {
-  // debugger
+
   {
     console.log("load")
   }
@@ -60,67 +60,67 @@ const Contact = ({ blogs, blogtwo, blog3, blog4, blog5, footerBrand, footerCaree
         <Authors data={blog5} />
       </div>
       <footer className="footerbg">
-      <Box sx={{ flexGrow: 1, marginLeft: '3%' }}>
-        <Grid container spacing={2} columns={18}>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none', fontWeight: 900, fontSize: 14 }}>Home</Item>
+        <Box sx={{ flexGrow: 1, marginLeft: '3%' }}>
+          <Grid container spacing={2} columns={18}>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none', fontWeight: 900, fontSize: 14 }}>Home</Item>
+            </Grid>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none' }}>
+                <Brands data={footerBrand} />
+              </Item>
+            </Grid>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none' }}>
+                <Company data={footerCompanys} /></Item>
+            </Grid>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none' }}>
+                <Investors data={footerInvestor} /></Item>
+            </Grid>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none' }}>
+                <Developments data={footerDevelopments} />
+              </Item>
+            </Grid>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none' }}>
+                <Responsibility data={footerResponsibilitys} />
+              </Item>
+            </Grid>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none' }}>
+                <Careers data={footerCareers} />
+              </Item>
+            </Grid>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none' }}>
+                <PressRooms data={footerPressRooms} />
+              </Item>
+            </Grid>
+            <Grid item xs={2}>
+              <Item sx={{ border: 'none', boxShadow: 'none' }}>
+                <ContactUs data={footerContacts} />
+              </Item>
+            </Grid>
           </Grid>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none' }}>
-              <Brands data={footerBrand} />
-            </Item>
-          </Grid>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none' }}>
-              <Company data={footerCompanys} /></Item>
-          </Grid>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none' }}>
-              <Investors data={footerInvestor} /></Item>
-          </Grid>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none' }}>
-              <Developments data={footerDevelopments} />
-            </Item>
-          </Grid>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none' }}>
-              <Responsibility data={footerResponsibilitys} />
-            </Item>
-          </Grid>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none' }}>
-              <Careers data={footerCareers} />
-            </Item>
-          </Grid>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none' }}>
-              <PressRooms data={footerPressRooms} />
-            </Item>
-          </Grid>
-          <Grid item xs={2}>
-            <Item sx={{ border: 'none', boxShadow: 'none' }}>
-              <ContactUs data={footerContacts} />
-            </Item>
-          </Grid>
+        </Box>
+        {/* subFooter */}
+        <Grid>
+          <Typography>
+            <SubFooter data={subFooters} />
+          </Typography>
         </Grid>
-      </Box>
-      {/* subFooter */}
-      <Grid>
-        <Typography>
-          <SubFooter data={subFooters} />
-        </Typography>
-      </Grid>
 
-      <Grid>
-        <Typography sx={{ marginTop: '1%', marginLeft: '8%' }}>
-          <Join data={join} />
-        </Typography>
+        <Grid>
+          <Typography sx={{ marginTop: '1%', marginLeft: '8%' }}>
+            <Join data={join} />
+          </Typography>
 
-      </Grid>
-      <Grid sx={{}}>
-        <Footer data={footers} />
-      </Grid>
+        </Grid>
+        <Grid sx={{}}>
+          <Footer data={footers} />
+        </Grid>
       </footer>
     </>
   )

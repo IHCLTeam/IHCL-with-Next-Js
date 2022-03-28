@@ -13,7 +13,7 @@ interface foterdata {
 }
 
 export function FooterOn({ data }: foterdata) {
-  debugger
+  
   return (
     <Grid sx = {{display : 'flex', justifyContent : 'space-between',borderTop : 1, borderBottom : 1 , width : '70%' , marginLeft : '14%', paddingTop: '1%' , paddingBottom : '1%',marginTop : '2%'}}>
       <Typography>

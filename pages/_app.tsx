@@ -1,5 +1,5 @@
-import '../styles/globals.css'
-import '../styles/style/globals.css'
+import '../styles/stylesvenkat/globals.css'
+import '../styles/stylesanthosh/globals.css'
 import '../styles/amitstyles/globals.css'
 import '../styles/stylesaditya/globals.css'
 import '../styles/stylesindoo/globals.css'

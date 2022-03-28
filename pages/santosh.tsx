@@ -5,24 +5,24 @@ import Image from 'next/image'
 import type { GetStaticProps, NextPage } from 'next'
 import { getAll, getAllBlog, getAllBlo, getBrands, getCareer, getCompany, getContact, getDevlopmnt, getFooter, getheadtwo, getInvestor, getJoinUS, getPressrom, getResponsibil, getSubfooter, witoutcard } from '../lib/api';
 import { Typography } from '@mui/material';
-import CardItems from '../compot/carditms';
-import HrCards from '../compot/hrcards';
+import CardItems from '../componentsanthosh/carditms';
+import HrCards from '../componentsanthosh/hrcards';
 import { Box, Grid } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import imageLoader from './imageLoader';
-import DataOne from '../compot/withoutcard';
-import { Brands } from '../compot/footer/brands';
-import { Careers } from '../compot/footer/Careers';
-import Company from '../compot/footer/Company';
-import Contact from '../compot/footer/Contact';
-import { Developments } from '../compot/footer/Developments';
-import { Investors } from '../compot/footer/Investors';
-import { PressRooms } from '../compot/footer/PressRooms';
-import { Responsibility } from '../compot/footer/Responsibility';
-import { Subfooter } from '../compot/footer/subfooter';
-import { JoinUs } from '../compot/footer/joinUs';
-import { FooterDown } from '../compot/footer/footerimg';
-import RowAndColumnSpacing from '../compot/pdfgrid';
+import DataOne from '../componentsanthosh/withoutcard';
+import { Brands } from '../componentsanthosh/footer/brands';
+import { Careers } from '../componentsanthosh/footer/Careers';
+import Company from '../componentsanthosh/footer/Company';
+import Contact from '../componentsanthosh/footer/Contact';
+import { Developments } from '../componentsanthosh/footer/Developments';
+import { Investors } from '../componentsanthosh/footer/Investors';
+import { PressRooms } from '../componentsanthosh/footer/PressRooms';
+import { Responsibility } from '../componentsanthosh/footer/Responsibility';
+import { Subfooter } from '../componentsanthosh/footer/subfooter';
+import { JoinUs } from '../componentsanthosh/footer/joinUs';
+import { FooterDown } from '../componentsanthosh/footer/footerimg';
+import RowAndColumnSpacing from '../componentsanthosh/pdfgrid';
 
 
 const useStyles = makeStyles((theme) => ({
